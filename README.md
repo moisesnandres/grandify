@@ -1,33 +1,26 @@
-# GRANDstack Starter
+# GRANDIFY
 
-This project is a starter for building a [GRANDstack](https://grandstack.io) (GraphQL, React, Apollo, Neo4j Database) application. There are two components to the starter, the UI application (a React app) and the API app (GraphQL server).
+This project is using [GRANDstack](https://grandstack.io) (GraphQL, React, Apollo, Neo4j Database).
 
 ## Quickstart
 
-*Install dependencies*
+_Install dependencies_
 
 ```
-(cd ./ui && npm install)
-(cd ./api && npm install)
+(cd ./ui && yarn install)
+(cd ./api && yarn install)
 ```
 
-*Start API server*
+_Start API server_
+
 ```
-cd ./api && npm start
+cd ./api && yarn start
 ```
 
 This will start the GraphQL API in the foreground, so in another terminal session start the UI development server:
 
-*Start UI server*
+_Start UI server_
+
 ```
-cd ./ui && npm start
+cd ./ui && yarn start
 ```
-
-## [`/api`](./api)
-![](api/img/graphql-playground.png)
-
-## [`/ui`](./ui)
-![](ui/img/default-app.png)
-
-This project is licensed under the Apache License v2.
-Copyright (c) 2018 Neo4j, Inc.
